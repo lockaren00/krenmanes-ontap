@@ -1,0 +1,112 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --border-color: #dbdbdb;
+    --start-gold-color: #ffce3e;
+
+    --header-height: 90px;
+    
+}
+
+*,*::before,*::after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* common */
+.mt-16 {
+    margin-top: 16px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.mb-12 {
+    margin-bottom: 12px;
+}
+
+.text-space {
+    letter-spacing: 1px;
+}
+
+.font-24 {
+    font-size: 2.4rem;
+}
+
+.font-18 {
+    font-size: 1.8rem;
+}
+
+.pad-r-16 {
+    padding-right: 16px;
+}
+
+.pad-l-16 {
+    padding-left: 16px;
+}
+
+.text-3-row {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.text-4-row {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
+
+.text-justify {
+    text-align: justify;
+}
+/* Button */
+
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes growth {
+    from {
+        transform: scale(var(--growth-from));
+    }
+
+    to {
+        transform: scale(var(--growth-to));
+    }
+}
+
+@keyframes sideRightIn {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

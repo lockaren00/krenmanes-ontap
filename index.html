@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="grid wide">
+                <nav class="navbar">
+                    <div class="header__logo">
+                        <a href="#" class="header__logo-link"><img src="./assets/img/logo.png" alt="" class="header__logo-img"></a>
+                    </div>
+
+                    <label for="mobile-navbar-checkbox" class="mobile__menu-btn">
+                        <i class="mobile__menu-icon fa-solid fa-bars"></i>
+                    </label>
+    
+                    <ul class="navbar__list hide-on-mobile-tablet">
+                        <li class="navbar__item">
+                            <a href="#" class="navbar__item-link">Home</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#about" class="navbar__item-link">About</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#about" class="navbar__item-link">Practices</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#news" class="navbar__item-link">Ourlawvers</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#news" class="navbar__item-link">News</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#contact" class="navbar__item-link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>   
+
+                <input type="checkbox" class="mobile-navbar-checkbox" hidden id="mobile-navbar-checkbox">
+                <label for="mobile-navbar-checkbox" class="header__overlay"></label>
+                <div class="navbar-mobile-fixed">
+                    <label for="mobile-navbar-checkbox" class="mobile-close-btn">
+                        <i class="mobile-close-icon fa-solid fa-xmark"></i>
+                    </label>
+                    <ul class="navbar__fixed-list">
+                        <li class="navbar__fixed-item">
+                            <label for="mobile-navbar-checkbox" class="navbar__item-fixed-link">Home</label>
+                        </li>
+                        <li class="navbar__fixed-item">
+                            <label for="mobile-navbar-checkbox" class="navbar__item-fixed-link">About</label>
+                        </li>
+                        <li class="navbar__fixed-item">
+                            <label for="mobile-navbar-checkbox" class="navbar__item-fixed-link">Practices</label>
+                        </li>
+                        <li class="navbar__fixed-item">
+                            <label for="mobile-navbar-checkbox" class="navbar__item-fixed-link">Ourlawvers</label>
+                        </li>
+                        <li class="navbar__fixed-item">
+                            <label for="mobile-navbar-checkbox" class="navbar__item-fixed-link">News</label>
+                        </li>
+                        <li class="navbar__fixed-item">
+                            <label for="mobile-navbar-checkbox" class="navbar__item-fixed-link">Contact</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider">
+            <div class="grid wide">
+                <div class="slider__wrap">
+                    <div class="slider__text hide-on-mobile-tablet">
+                        <p>It's never easy...</p>
+                        <p>When it come to family.</p>
+                        <span>But we can set</span>
+                        <span>everything straight</span>
+                    </div>
+
+                    <img src="./assets/img/family-large.jpg" alt="" class="slider__img">
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div id="about" class="promise__wrap">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-7 m-12 content__promise-item">
+                            <h2 class="content__promise-heading font-24">
+                                The Manes Winchester Promise
+                            </h2>
+    
+                            <p class="content__promise-desc">
+                                Lorem Ipsum is simply dummy text of <a href="#">Free website template</a> the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, <a href="#">Forum</a> the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            </p>
+                        </div>
+                        <div class="col l-5 m-12 content__promise-item">
+                            <h2 class="content__promise-heading text-space font-18">
+                                TESTIMONIALS 
+                            </h2>
+    
+                            <p class="content__tes-desc">
+                                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s", when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                            </p>
+
+                            <span class="content__tes-title">
+                                -John Doe and Jane Doe-
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="news" class="about__wrap">
+                <div class="grid wide">
+                    <div class="content__about">
+                        <h2 class="about__heading">
+                            Why choose us?
+                        </h2>
+    
+                        <div class="row">
+                            <div class="col l-3 m-6 c-12 about__item">
+                                <div class="about__img" style="background-image: url(./assets/img/meeting.jpg);"></div>
+                                <h4>Our Lawyers</h4>
+                                <p>the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, <a href="#">Forum</a> the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                <button class="btn">
+                                    READ MORE
+                                </button>
+                            </div>
+                            <div class="col l-3 m-6 c-12 about__item mt-mobile-24">
+                                <div class="about__img" style="background-image: url(./assets/img/handshake.jpg);"></div>
+                                <h4>Get to know us more</h4>
+                                <p>the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, <a href="#">Forum</a> the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                <button class="btn">
+                                    READ MORE
+                                </button>
+                            </div>
+                            <div class="col l-3 m-6 c-12 about__item mt-mobile-tablet-24">
+                                <div class="about__img" style="background-image: url(./assets/img/smile.jpg);"></div>
+                                <h4>What we offer</h4>
+                                <p>the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, <a href="#">Forum</a> the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                <button class="btn">
+                                    READ MORE
+                                </button>
+                            </div>
+                            <div class="col l-3 m-6 c-12 about__item mt-mobile-tablet-24">
+                                <div class="about__img" style="background-image: url(./assets/img/family-small.jpg);"></div>
+                                <h4>Get in touch with us</h4>
+                                <p>the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, <a href="#">Forum</a> the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                <button class="btn">
+                                    READ MORE
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="grid wide">
+                <div id="contact" class="row footer__wrap">
+                    <div class="col l-4 m-6 c-12 border-right-footer">
+                        <div class="footer__item">
+                            <h3>
+                                Latest news
+                            </h3>
+    
+                            <p class="text-4-row mt-16">
+                                the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, <a href="#">Forum</a> the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            </p>
+                        </div>
+                        
+                    </div>
+                    <div class="col l-4 m-6 c-12 footer__item  border-right-footer">
+                        <div class="footer__item">
+                            <h3>
+                                Contact us
+                            </h3>
+    
+                            <p class="mt-16">ADDRESS: Vũng Tàu</p>
+                            <p>PHONE: 0123456789</p>
+                            <p>EMAIL: duongminhloc2000@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-12 c-12">
+                        <div class="footer__item pad-b-30 pad-b-35">
+                            <h3>
+                                SEND US AN EMAIL
+                            </h3>
+    
+                            <p class="text-3-row mb-12 mt-16"> 
+                                the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, <a href="#">Forum</a> the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            </p>
+    
+                            <button class="btn pad-r-16 pad-l-16">
+                                CLICK TO SEND US AN EMAIL
+                            </button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__copy-right">
+                <p>© 2022 - Powered by Dương Minh Lộc</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
